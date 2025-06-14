@@ -3,13 +3,8 @@
 Sistem Case-Based Reasoning (CBR) ini membantu analisis putusan pengadilan kategori Narkotika dan Psikotropika dari PN Rantau Prapat Tahun 2024.
 
 ## Daftar Isi
-1.  [Gambaran Umum](#gambaran-umum)
-2.  [Instalasi](#instalasi)
-3.  [Cara Menjalankan Pipeline](#cara-menjalankan-pipeline)
-    * [Tahap 1: Case Base (Scraping & Cleaning)](#tahap-1-case-base-scraping--cleaning)
-    * [Tahap 2: Case Representation](#tahap-2-case-representation)
-    * [Tahap 3: Case Retrieval](#tahap-3-case-retrieval)
-    * [Tahap 4: Solution Reuse](#tahap-4-solution-reuse)
+1.  [Gambaran Umum](#1.-gambaran-umum)
+2.  [Instalasi](#2.-instalasi)
 
 ---
 
@@ -22,7 +17,6 @@ Proyek ini mengimplementasikan siklus Sistem Case-Based Reasoning (CBR) untuk pu
     * `notebooks/` (berisi 4 notebook: `1. Case_Base_(Scraping_&_Cleaning).ipynb`, `2. Case_Representation.ipynb`, `3. Case_Retrieval.ipynb`, `4. Solution_Reuse.ipynb`)
     * `log_scraping.txt`
     * `models/` (untuk model yang dilatih)
-    * `requirements.txt`
     * `README.md`
 
 ### 2. Instalasi
@@ -40,19 +34,11 @@ Proyek ini mengimplementasikan siklus Sistem Case-Based Reasoning (CBR) untuk pu
     # macOS/Linux
     source venv/bin/activate
     ```
-3.  **Instal Dependensi:** Buat `requirements.txt` dengan daftar library seperti `pandas`, `numpy`, `scikit-learn`, `nltk`, `jupyter`, dll.
-    ```bash
-    pip install -r requirements.txt
-    ```
-4.  **Download NLTK Data:**
+3.  **Download NLTK Data:**
     ```python
     import nltk
     nltk.download('stopwords')
     nltk.download('punkt')
     ```
 
-### 3. Cara Menjalankan Pipeline
 
-Buka Jupyter Notebook dari direktori utama proyek Anda (`penalaran`):
-```bash
-jupyter notebook
