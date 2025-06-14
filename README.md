@@ -3,8 +3,8 @@
 Sistem Case-Based Reasoning (CBR) ini membantu analisis putusan pengadilan kategori Narkotika dan Psikotropika dari PN Rantau Prapat Tahun 2024.
 
 ## Daftar Isi
-1.  [Gambaran Umum](#1. gambaran-umum)
-2.  [Instalasi](#2. instalasi)
+1.  [Gambaran Umum](#1.gambaran-umum)
+2.  [Instalasi](#2.instalasi)
 
 ---
 
