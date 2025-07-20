@@ -68,6 +68,7 @@ Jalankan Jupyter Notebook dari direktori utama proyek, lalu buka dan jalankan se
 
 ```bash
 jupyter notebook
+```
 
 #### 1. Case Base (Scraping & Cleaning)
 * **File:** `notebooks/1. Case_Base_(Scraping_&_Cleaning).ipynb`
@@ -107,10 +108,9 @@ jupyter notebook
 #### 4. Solution Reuse
 * **File:** `notebooks/4. Solution_Reuse.ipynb`
 * **Tujuan:** Merekomendasikan solusi (pasal dan amar putusan) dari kasus serupa yang ditemukan pada tahap *retrieval*.
-* **Contoh Rekomendasi Solusi:**
+* **Contoh Rekomendasi Solusi**:
     * **Query Kasus Baru**: Kepemilikan sabu 5 gram.
     * **Kasus Paling Mirip Ditemukan**: Case ID: 45
     * **Rekomendasi Solusi**:
         * **Pasal**: `1 Angka 1`
         * **Ringkasan Amar Putusan**: (diambil dari amar putusan Case ID 45)
-
